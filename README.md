@@ -27,3 +27,7 @@ src/
   pages/          top-level views
 public/           static files served as-is
 ```
+
+## Contributing
+
+`main` is protected and auto-deploys to Netlify. All changes go through pull requests. See [CONTRIBUTING.md](CONTRIBUTING.md) for the workflow and the rules for using AI tools.
