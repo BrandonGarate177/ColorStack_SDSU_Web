@@ -1,0 +1,21 @@
+{
+  "chapterName": "ColorStack @ SDSU",
+  "chapterNameShort": "ColorStack",
+  "tagline": "Building the next generation of Black and Latinx software engineers at San Diego State University.",
+  "nav": [
+    { "label": "Home", "href": "/" },
+    { "label": "About", "href": "/about" },
+    { "label": "Board", "href": "/board" },
+    { "label": "Events", "href": "/events" },
+    { "label": "Contact", "href": "/join" }
+  ],
+  "contact": {
+    "email": "colorstack@sdsu.edu",
+    "affiliation": "San Diego State University · Recognized Student Organization"
+  },
+  "socials": [
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/company/colorstacksdsu/" },
+    { "label": "Instagram", "href": "https://www.instagram.com/colorstacksdsu/" },
+    { "label": "Discord", "href": "https://discord.gg/cTy3JVwsZ" }
+  ]
+}

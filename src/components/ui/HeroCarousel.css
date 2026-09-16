@@ -1,0 +1,34 @@
+.hero-carousel {
+  position: relative;
+  width: 100%;
+}
+
+.hero-carousel-viewport {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+}
+
+.hero-carousel-slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+  pointer-events: none;
+}
+
+.hero-carousel-slide.is-active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.hero-carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

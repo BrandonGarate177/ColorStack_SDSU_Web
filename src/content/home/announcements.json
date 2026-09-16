@@ -1,0 +1,18 @@
+[
+  {
+    "id": "a1",
+    "tag": "Pinned",
+    "title": "Placeholder announcement title",
+    "body": "Placeholder body copy — replace with the real announcement text once the board has one to publish.",
+    "date": "2026-09-01",
+    "href": null
+  },
+  {
+    "id": "a2",
+    "tag": "Notice",
+    "title": "Placeholder announcement title",
+    "body": "Placeholder body copy — replace with the real announcement text once the board has one to publish.",
+    "date": "2026-08-20",
+    "href": null
+  }
+]
