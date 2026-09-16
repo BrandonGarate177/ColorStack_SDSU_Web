@@ -1,0 +1,78 @@
+/* Design tokens — see DESIGN.md for the full reference. */
+:root {
+  /* Base surfaces (Linear-derived, navy-tinted) */
+  --color-bg: #0a0e1a;
+  --color-surface: #0f1420;
+  --color-surface-alt: #161c2c;
+  --color-hairline: #262e42;
+  --color-hairline-soft: #1b2233;
+
+  /* Text */
+  --color-text-primary: #f5f1e8;
+  --color-text-secondary: #a8acc0;
+  --color-text-muted: #6b7086;
+
+  /* Brand — SDSU */
+  --color-sdsu-red: #d41736;
+  --color-sdsu-red-dark: #a6192e;
+  --color-sdsu-charcoal: #2d2828;
+  --color-sdsu-teal: #00a39d;
+  --color-sdsu-teal-dark: #008080;
+
+  /* Brand — ColorStack */
+  --color-cs-navy: #14213d;
+  --color-cs-cream: #f5f1e8;
+  --color-cs-yellow: #ffc93c;
+  --color-cs-teal-bright: #14d6c4;
+
+  /* System states */
+  --color-success: #22c55e;
+  --color-error: #ff5c5c;
+
+  /* Glow / gradient */
+  --glow-primary: 0 0 0 1px rgba(212, 23, 54, 0.4), 0 0 24px rgba(212, 23, 54, 0.35);
+  --glow-primary-hover: 0 0 0 1px rgba(212, 23, 54, 0.5), 0 0 32px rgba(212, 23, 54, 0.5);
+  --glow-teal: 0 0 24px rgba(20, 214, 196, 0.25);
+  --gradient-hero: radial-gradient(120% 120% at 20% -10%, rgba(212, 23, 54, 0.18) 0%, rgba(20, 33, 61, 0.4) 45%, #0a0e1a 100%);
+  --gradient-warm-action: linear-gradient(135deg, #d41736 0%, #ffc93c 100%);
+  --gradient-navy-teal: linear-gradient(135deg, #14213d 0%, #00a39d 100%);
+
+  /* Fonts */
+  --font-heading: "Poppins", "Nunito", sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "Berkeley Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+
+  /* Type scale */
+  --text-display: 40px;
+  --text-heading-lg: 32px;
+  --text-heading: 24px;
+  --text-body-lg: 18px;
+  --text-body: 15px;
+  --text-body-sm: 14px;
+  --text-caption: 13px;
+  --text-mono: 12px;
+
+  /* Spacing scale */
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-96: 96px;
+
+  /* Radius */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-pill: 9999px;
+
+  /* Layout */
+  --content-max-width: 1120px;
+}

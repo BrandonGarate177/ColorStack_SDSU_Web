@@ -1,0 +1,114 @@
+[
+  {
+    "id": "b1",
+    "name": "Placeholder Name",
+    "role": "President",
+    "major": "Computer Science",
+    "year": "Senior",
+    "bio": "Placeholder bio — replace with the real board member details.",
+    "contact": {
+      "linkedin": "https://www.linkedin.com/in/placeholder",
+      "github": "https://github.com/placeholder",
+      "email": "placeholder@sdsu.edu",
+      "website": null
+    }
+  },
+  {
+    "id": "b2",
+    "name": "Placeholder Name",
+    "role": "Vice President",
+    "major": "Computer Science",
+    "year": "Junior",
+    "bio": "Placeholder bio — replace with the real board member details.",
+    "contact": {
+      "linkedin": "https://www.linkedin.com/in/placeholder",
+      "github": null,
+      "email": "placeholder@sdsu.edu",
+      "website": null
+    }
+  },
+  {
+    "id": "b3",
+    "name": "Placeholder Name",
+    "role": "Director of Events",
+    "major": "Computer Engineering",
+    "year": "Junior",
+    "bio": "Placeholder bio — replace with the real board member details.",
+    "contact": {
+      "linkedin": "https://www.linkedin.com/in/placeholder",
+      "github": null,
+      "email": null,
+      "website": null
+    }
+  },
+  {
+    "id": "b4",
+    "name": "Placeholder Name",
+    "role": "Director of Corporate Relations",
+    "major": "Business Administration",
+    "year": "Senior",
+    "bio": "Placeholder bio — replace with the real board member details.",
+    "contact": {
+      "linkedin": "https://www.linkedin.com/in/placeholder",
+      "github": null,
+      "email": "placeholder@sdsu.edu",
+      "website": "https://placeholder.dev"
+    }
+  },
+  {
+    "id": "b5",
+    "name": "Placeholder Name",
+    "role": "Technical Chair",
+    "major": "Computer Science",
+    "year": "Sophomore",
+    "bio": "Placeholder bio — replace with the real board member details.",
+    "contact": {
+      "linkedin": "https://www.linkedin.com/in/placeholder",
+      "github": "https://github.com/placeholder",
+      "email": null,
+      "website": "https://placeholder.dev"
+    }
+  },
+  {
+    "id": "b6",
+    "name": "Placeholder Name",
+    "role": "Director of Marketing",
+    "major": "Graphic Design",
+    "year": "Junior",
+    "bio": "Placeholder bio — replace with the real board member details.",
+    "contact": {
+      "linkedin": null,
+      "github": null,
+      "email": "placeholder@sdsu.edu",
+      "website": "https://placeholder.dev"
+    }
+  },
+  {
+    "id": "b7",
+    "name": "Placeholder Name",
+    "role": "Treasurer",
+    "major": "Finance",
+    "year": "Senior",
+    "bio": "Placeholder bio — replace with the real board member details.",
+    "contact": {
+      "linkedin": "https://www.linkedin.com/in/placeholder",
+      "github": null,
+      "email": "placeholder@sdsu.edu",
+      "website": null
+    }
+  },
+  {
+    "id": "b8",
+    "name": "Placeholder Name",
+    "role": "Secretary",
+    "major": "Computer Science",
+    "year": "Sophomore",
+    "bio": "Placeholder bio — replace with the real board member details.",
+    "contact": {
+      "linkedin": "https://www.linkedin.com/in/placeholder",
+      "github": "https://github.com/placeholder",
+      "email": null,
+      "website": null
+    }
+  }
+]

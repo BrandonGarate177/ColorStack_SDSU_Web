@@ -1,0 +1,183 @@
+.board-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-20);
+}
+
+.board-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface);
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--radius-lg);
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.board-card:hover {
+  border-color: var(--color-sdsu-teal);
+  box-shadow: var(--glow-teal);
+}
+
+.board-card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--spacing-16);
+  padding: var(--spacing-20);
+  cursor: pointer;
+}
+
+.board-card-header:focus-visible {
+  outline: 2px solid var(--color-sdsu-teal);
+  outline-offset: -2px;
+  border-radius: var(--radius-lg);
+}
+
+.board-card-photo {
+  width: 72px;
+  height: 72px;
+  flex: none;
+}
+
+.board-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+
+.board-card-name {
+  font-size: var(--text-body);
+  font-family: var(--font-body);
+  font-weight: 600;
+}
+
+.board-card-role {
+  font-size: var(--text-caption);
+  color: var(--color-text-muted);
+}
+
+.board-card-meta {
+  font-family: var(--font-mono);
+  font-size: var(--text-mono);
+  color: var(--color-cs-teal-bright);
+}
+
+.board-card-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-hairline);
+  color: var(--color-text-secondary);
+  font-size: 15px;
+  line-height: 1;
+}
+
+.board-card-bio {
+  font-size: var(--text-body-sm);
+  color: var(--color-text-secondary);
+}
+
+.board-card-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-8) var(--spacing-16);
+}
+
+.board-card-link {
+  font-size: var(--text-caption);
+  color: var(--color-sdsu-teal);
+}
+
+.board-card-link:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 640px) {
+  .board-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .board-card-header {
+    flex-direction: column;
+  }
+
+  .board-card-photo {
+    width: 100%;
+    height: 140px;
+  }
+
+  .board-card-toggle {
+    align-self: flex-end;
+    margin-top: -8px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .board-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Detail modal — overlays the page instead of shifting layout */
+
+.board-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-20);
+  background: rgba(10, 14, 26, 0.72);
+  backdrop-filter: blur(4px);
+}
+
+.board-modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-12);
+  width: 100%;
+  max-width: 360px;
+  max-height: calc(100vh - var(--spacing-40));
+  overflow-y: auto;
+  background: var(--color-surface);
+  border: 1px solid var(--color-sdsu-teal);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--glow-teal);
+  padding: var(--spacing-24);
+}
+
+.board-modal-photo {
+  width: 100%;
+  height: 160px;
+}
+
+.board-modal-close {
+  position: absolute;
+  top: var(--spacing-12);
+  right: var(--spacing-12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-hairline);
+  background: var(--color-surface-alt);
+  color: var(--color-text-secondary);
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.board-modal-close:hover {
+  border-color: var(--color-sdsu-teal);
+  color: var(--color-text-primary);
+}

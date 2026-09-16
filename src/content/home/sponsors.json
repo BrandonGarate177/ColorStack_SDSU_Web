@@ -1,0 +1,18 @@
+[
+  { "id": "bloomberg", "name": "Bloomberg", "logo": "/sponsors/bloomberg.png" },
+  { "id": "capitalone", "name": "Capital One", "logo": "/sponsors/capitalone.png" },
+  { "id": "codesignal", "name": "CodeSignal", "logo": "/sponsors/codesignal.png" },
+  { "id": "creditkarma", "name": "Credit Karma", "logo": "/sponsors/creditkarma.png" },
+  { "id": "datadog", "name": "Datadog", "logo": "/sponsors/datadog.png" },
+  { "id": "docusign", "name": "DocuSign", "logo": "/sponsors/docusign.png" },
+  { "id": "draftkings", "name": "DraftKings", "logo": "/sponsors/draftkings.png" },
+  { "id": "hubspot", "name": "HubSpot", "logo": "/sponsors/hubspot.png" },
+  { "id": "jpmorgan", "name": "JPMorgan", "logo": "/sponsors/jpmorgan.png" },
+  { "id": "mastercard", "name": "Mastercard", "logo": "/sponsors/mastercard.png" },
+  { "id": "meta", "name": "Meta", "logo": "/sponsors/meta.png" },
+  { "id": "microsoft", "name": "Microsoft", "logo": "/sponsors/microsoft.png" },
+  { "id": "netflix", "name": "Netflix", "logo": "/sponsors/netflix.png" },
+  { "id": "nvidia", "name": "NVIDIA", "logo": "/sponsors/nvidia.png" },
+  { "id": "reddit", "name": "Reddit", "logo": "/sponsors/reddit.png" },
+  { "id": "salesforce", "name": "Salesforce", "logo": "/sponsors/salesforce.png" }
+]

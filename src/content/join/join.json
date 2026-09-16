@@ -1,0 +1,114 @@
+{
+  "applyUrl": "https://app.colorstack.io/apply",
+  "requirementsUrl": "https://www.colorstack.org/member-application-requirements",
+  "orgs": [
+    {
+      "kicker": "SDSU Chapter",
+      "title": "Join the SDSU Discord",
+      "desc": "This is where the chapter lives day-to-day — meeting reminders, event chat, and how members connect with each other. Anyone at SDSU is welcome, no application required."
+    },
+    {
+      "kicker": "National ColorStack",
+      "title": "Apply to ColorStack",
+      "desc": "Official ColorStack membership is separate from the chapter — it comes from the national application, reviewed on a rolling basis, and has its own eligibility requirements."
+    }
+  ],
+  "benefits": [
+    {
+      "kicker": "SDSU Chapter",
+      "title": "As a Chapter Member",
+      "items": [
+        {
+          "icon": "monitor",
+          "title": "Weekly Workshops",
+          "desc": "Tech talks on web dev, data structures, and interview prep."
+        },
+        {
+          "icon": "userCheck",
+          "title": "Peer Mentorship",
+          "desc": "Guidance from upperclassmen and alumni already working in tech."
+        },
+        {
+          "icon": "fileText",
+          "title": "Resume & Interview Prep",
+          "desc": "Resume reviews and mock interviews from members and sponsors."
+        },
+        {
+          "icon": "bookOpen",
+          "title": "Study Groups",
+          "desc": "Collaborate on projects and coursework with fellow SDSU CS students."
+        },
+        {
+          "icon": "users",
+          "title": "Networking Events",
+          "desc": "Mixers with sponsors, alumni, and local tech companies."
+        },
+        {
+          "icon": "heart",
+          "title": "Built-In Community",
+          "desc": "A home for Black and Latinx students in tech at SDSU."
+        },
+        {
+          "icon": "star",
+          "title": "Leadership Roles",
+          "desc": "Opportunities to serve and lead on the chapter board."
+        }
+      ]
+    },
+    {
+      "kicker": "National ColorStack",
+      "title": "As a National Member",
+      "items": [
+        {
+          "icon": "messageCircle",
+          "title": "National Slack Community",
+          "desc": "Connect with thousands of Black and Latinx CS students nationwide."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Job & Internship Pipeline",
+          "desc": "Opportunities through ColorStack's recruiting partnerships."
+        },
+        {
+          "icon": "code",
+          "title": "Interview Prep Resources",
+          "desc": "Free access to technical prep platforms and materials."
+        },
+        {
+          "icon": "dollarSign",
+          "title": "Scholarships & Funding",
+          "desc": "Support to attend conferences like the ColorStack Summer Summit."
+        },
+        {
+          "icon": "award",
+          "title": "Hackathons & Fellowships",
+          "desc": "Invitations to national hackathons and career programs."
+        },
+        {
+          "icon": "globe",
+          "title": "Alumni & Mentor Network",
+          "desc": "A national network spanning the entire tech industry."
+        },
+        {
+          "icon": "mail",
+          "title": "Job Board & Newsletter",
+          "desc": "Curated opportunities delivered right to members."
+        }
+      ]
+    }
+  ],
+  "ctas": [
+    {
+      "id": "discord",
+      "kicker": "SDSU Chapter",
+      "title": "Join the Discord",
+      "desc": "Get meeting reminders, event chat, and connect with other chapter members."
+    },
+    {
+      "id": "apply",
+      "kicker": "National ColorStack",
+      "title": "Apply for Membership",
+      "desc": "Official membership is granted through ColorStack's national application — review the eligibility requirements first."
+    }
+  ]
+}

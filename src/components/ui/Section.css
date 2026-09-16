@@ -1,0 +1,34 @@
+.section {
+  padding-block: var(--spacing-64);
+  border-bottom: 1px solid var(--color-hairline-soft);
+}
+
+.section:last-of-type {
+  border-bottom: none;
+}
+
+.section--tinted {
+  background: var(--color-surface);
+}
+
+.section-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--spacing-16);
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing-32);
+}
+
+.section-kicker {
+  font-family: var(--font-mono);
+  font-size: var(--text-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-cs-teal-bright);
+  margin-bottom: var(--spacing-8);
+}
+
+.section-title {
+  font-size: var(--text-heading);
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "community",
+    "name": "Community",
+    "desc": "We show up for each other — in study rooms, in interviews, and in the moments in between."
+  },
+  {
+    "id": "excellence",
+    "name": "Excellence",
+    "desc": "We hold high standards for our craft and push each other to grow past them."
+  },
+  {
+    "id": "representation",
+    "name": "Representation",
+    "desc": "We make space for Black and Latinx students to see themselves leading in tech."
+  },
+  {
+    "id": "opportunity",
+    "name": "Opportunity",
+    "desc": "We connect members to the mentors, employers, and resources that open doors."
+  }
+]
