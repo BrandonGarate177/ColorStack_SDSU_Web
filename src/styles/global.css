@@ -6,10 +6,12 @@
 
 html {
   color-scheme: dark;
+  overflow-x: clip;
 }
 
 body {
   margin: 0;
+  overflow-x: clip;
   font-family: var(--font-body);
   font-size: var(--text-body);
   line-height: 1.5;

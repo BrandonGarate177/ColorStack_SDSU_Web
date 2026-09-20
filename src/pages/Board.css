@@ -146,7 +146,9 @@
   width: 100%;
   max-width: 360px;
   max-height: calc(100vh - var(--spacing-40));
+  max-height: calc(100dvh - var(--spacing-40));
   overflow-y: auto;
+  overscroll-behavior: contain;
   background: var(--color-surface);
   border: 1px solid var(--color-sdsu-teal);
   border-radius: var(--radius-lg);
@@ -166,8 +168,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
+  width: 36px;
+  height: 36px;
   border-radius: var(--radius-pill);
   border: 1px solid var(--color-hairline);
   background: var(--color-surface-alt);
