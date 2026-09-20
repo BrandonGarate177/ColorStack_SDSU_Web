@@ -5,14 +5,30 @@ import { board } from '../content/index.js'
 import './Board.css'
 
 const CONTACT_LINKS = [
+  { key: 'email', label: 'Email' },
   { key: 'linkedin', label: 'LinkedIn' },
   { key: 'github', label: 'GitHub' },
-  { key: 'email', label: 'Email' },
   { key: 'website', label: 'Portfolio' },
 ]
 
 function contactHref(key, value) {
   return key === 'email' ? `mailto:${value}` : value
+}
+
+// Headshots live in public/board/<member id>.jpg; falls back to a placeholder if missing.
+function MemberPhoto({ id, name, className }) {
+  const [failed, setFailed] = useState(false)
+
+  if (failed) return <div className={`${className} placeholder-box`}>Photo</div>
+
+  return (
+    <img
+      className={`${className} board-photo`}
+      src={`/board/${id}.jpg`}
+      alt={name}
+      onError={() => setFailed(true)}
+    />
+  )
 }
 
 function Board() {
@@ -55,7 +71,7 @@ function Board() {
                   }
                 }}
               >
-                <div className="board-card-photo placeholder-box">Photo</div>
+                <MemberPhoto id={member.id} name={member.name} className="board-card-photo" />
                 <div className="board-card-info">
                   <strong className="board-card-name">{member.name}</strong>
                   <span className="board-card-role">{member.role}</span>
@@ -95,7 +111,7 @@ function Board() {
             >
               ×
             </button>
-            <div className="board-modal-photo placeholder-box">Photo</div>
+            <MemberPhoto id={selected.id} name={selected.name} className="board-modal-photo" />
             <strong className="board-card-name">{selected.name}</strong>
             <span className="board-card-role">{selected.role}</span>
             <span className="board-card-meta">
@@ -115,7 +131,7 @@ function Board() {
                       target={key === 'email' ? undefined : '_blank'}
                       rel={key === 'email' ? undefined : 'noreferrer'}
                     >
-                      {label} ↗
+                      {key === 'email' ? selected.contact.email : label} ↗
                     </a>
                   ),
                 )}

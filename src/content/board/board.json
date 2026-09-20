@@ -57,6 +57,20 @@
   },
   {
     "id": "b5",
+    "name": "Luis Villalon",
+    "role": "Outreach Chair & Web Dev",
+    "major": "Computer Science",
+    "year": "Fourth Year",
+    "bio": "I aim to create and contribute to technology that empowers communities and enhances everyday life.",
+    "contact": {
+      "linkedin": "https://www.linkedin.com/in/luis-villalon/",
+      "github": "https://github.com/LuisFVillalon",
+      "email": "lvillalon1179@sdsu.edu",
+      "website": "https://luis-v-portfolio.vercel.app/"
+    }
+  },
+  {
+    "id": "b6",
     "name": "Placeholder Name",
     "role": "Technical Chair",
     "major": "Computer Science",
@@ -66,20 +80,6 @@
       "linkedin": "https://www.linkedin.com/in/placeholder",
       "github": "https://github.com/placeholder",
       "email": null,
-      "website": "https://placeholder.dev"
-    }
-  },
-  {
-    "id": "b6",
-    "name": "Placeholder Name",
-    "role": "Director of Marketing",
-    "major": "Graphic Design",
-    "year": "Junior",
-    "bio": "Placeholder bio — replace with the real board member details.",
-    "contact": {
-      "linkedin": null,
-      "github": null,
-      "email": "placeholder@sdsu.edu",
       "website": "https://placeholder.dev"
     }
   },
@@ -100,7 +100,7 @@
   {
     "id": "b8",
     "name": "Placeholder Name",
-    "role": "Secretary",
+    "role": "Technical Chair",
     "major": "Computer Science",
     "year": "Sophomore",
     "bio": "Placeholder bio — replace with the real board member details.",
@@ -108,7 +108,7 @@
       "linkedin": "https://www.linkedin.com/in/placeholder",
       "github": "https://github.com/placeholder",
       "email": null,
-      "website": null
+      "website": "https://placeholder.dev"
     }
   }
 ]

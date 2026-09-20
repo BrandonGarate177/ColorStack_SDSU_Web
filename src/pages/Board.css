@@ -39,6 +39,12 @@
   flex: none;
 }
 
+.board-photo {
+  display: block;
+  object-fit: contain;
+  border-radius: var(--radius-md);
+}
+
 .board-card-info {
   display: flex;
   flex-direction: column;
@@ -109,7 +115,8 @@
 
   .board-card-photo {
     width: 100%;
-    height: 140px;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
 
   .board-card-toggle {
@@ -156,7 +163,7 @@
 
 .board-modal-photo {
   width: 100%;
-  height: 160px;
+  aspect-ratio: 1 / 1;
 }
 
 .board-modal-close {
