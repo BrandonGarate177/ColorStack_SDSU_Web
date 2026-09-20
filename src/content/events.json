@@ -1,42 +1,12 @@
 [
   {
     "id": "e1",
-    "title": "Placeholder Workshop",
-    "date": "2026-09-18",
-    "time": "18:00",
+    "title": "First GBM: \"How to Fail\"",
+    "date": "2026-10-06",
+    "time": "14:00",
     "type": "workshop",
     "location": "SDSU, room TBD",
-    "description": "Placeholder description — replace with the real event details.",
-    "rsvp": null
-  },
-  {
-    "id": "e2",
-    "title": "Placeholder Social",
-    "date": "2026-09-25",
-    "time": "17:00",
-    "type": "social",
-    "location": "SDSU, location TBD",
-    "description": "Placeholder description — replace with the real event details.",
-    "rsvp": null
-  },
-  {
-    "id": "e3",
-    "title": "Placeholder Speaker Series",
-    "date": "2026-10-02",
-    "time": "18:30",
-    "type": "speaker",
-    "location": "SDSU, room TBD",
-    "description": "Placeholder description — replace with the real event details.",
-    "rsvp": null
-  },
-  {
-    "id": "e4",
-    "title": "Placeholder Hackathon",
-    "date": "2026-08-15",
-    "time": "10:00",
-    "type": "hackathon",
-    "location": "SDSU, location TBD",
-    "description": "Placeholder description — replace with the real event details.",
+    "description": "Join ColorStack at SDSU for our first GBM to learn about national membership benefits and get real about academic and career missteps. Share your story or listen in as we demystify failure to boost our professional growth in tech!",
     "rsvp": null
   }
 ]
