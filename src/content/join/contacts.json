@@ -1,12 +1,7 @@
 [
   {
     "role": "General Inquiries",
-    "name": "Placeholder Name",
+    "name": "Reach out through Discord or email.",
     "email": "colorstack@sdsu.edu"
-  },
-  {
-    "role": "Membership",
-    "name": "Placeholder Name",
-    "email": "membership@sdsu.edu"
   }
 ]
