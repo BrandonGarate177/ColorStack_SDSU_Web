@@ -288,13 +288,41 @@
 }
 
 @media (max-width: 600px) {
+  .events-nav-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .events-filter-chip {
+    padding: 9px 16px;
+  }
+
   .events-calendar-cell {
     min-height: 44px;
     padding: 4px;
   }
 
+  /* Titles are unreadable at ~45px per column, so show a colored bar instead;
+     the "This Month, In Detail" list below carries the full text. */
   .events-calendar-chip {
-    font-size: 10px;
+    height: 6px;
+    padding: 0;
+    border-left-width: 0;
+    border-radius: var(--radius-pill);
+    background: var(--color-sdsu-teal);
+    font-size: 0;
+  }
+
+  .events-calendar-chip--social {
+    background: var(--color-text-muted);
+  }
+
+  .events-calendar-chip--hackathon {
+    background: var(--color-cs-yellow);
+  }
+
+  .events-calendar-chip--speaker {
+    background: var(--color-sdsu-red);
   }
 
   .events-detail-row {
@@ -303,7 +331,8 @@
 
   .events-detail-rsvp,
   .events-detail-rsvp-soon {
-    flex-basis: 100%;
+    /* 72px = date column (56) + row gap (16), so the RSVP aligns under the info text */
+    flex-basis: calc(100% - 72px);
     margin-left: 72px;
     margin-top: -4px;
   }
