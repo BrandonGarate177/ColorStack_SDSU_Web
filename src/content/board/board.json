@@ -29,15 +29,15 @@
   },
   {
     "id": "b3",
-    "name": "Placeholder Name",
-    "role": "Director of Events",
-    "major": "Computer Engineering",
-    "year": "Junior",
-    "bio": "Placeholder bio — replace with the real board member details.",
+    "name": "Ian Gallardo",
+    "role": "Co-Vice President",
+    "major": "Computer Science",
+    "year": "Fourth Year",
+    "bio": "I love tech because it fuels my creativity in what I can build. A hobby of mine is boxing conditioning. “We evolve beyond the person we were a minute before. Little by little.” -Simon",
     "contact": {
-      "linkedin": "https://www.linkedin.com/in/placeholder",
-      "github": null,
-      "email": null,
+      "linkedin": "https://www.linkedin.com/in/ian-gallardo",
+      "github": "https://github.com/nightcael",
+      "email": "igallardo0855@sdsu.edu",
       "website": null
     }
   },
